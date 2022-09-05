@@ -1,0 +1,66 @@
+body{
+    background-color: lightsteelblue;
+}
+.head{
+    background-color:brown ;
+    height: 60px;
+}
+#heading{
+    padding-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.textbold{
+    font-size: 20px;
+}
+#e_price{
+    height: 30px;
+    padding: 10px;
+    color: lightslategray;
+}
+#d_price{
+    height: 30px;
+    padding: 10px;
+    color:tomato;
+}
+#a_price{
+    font-size: 30px;
+   padding-left: 30px;
+   color:blue;
+}
+#s_price{
+    font-size: 30px;
+    padding-left: 30px;
+    color: green;
+   
+
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 37%;
+}
+
+#clr{
+    margin-left: 300px;
+    padding: 8px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    border-color: white;
+    cursor: pointer;
+}
+#cal{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}

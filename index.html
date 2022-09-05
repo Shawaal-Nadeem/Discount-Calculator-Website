@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DISCOUNT CALCULATOR</title>
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="head">
+<h1 id="heading">Discount Calculator</h1>
+</div>
+<div class="enter">
+    
+    <table>
+        <tr>
+            <td><p class="textbold"><b>Enter Price : </b></p></td>
+            <td><input id="e_price" type="text" placeholder="Enter Amount Here"></td>
+        </tr>
+        <tr>
+            <td><p class="textbold"><b>Discount : </b></p></td>
+            <td><input id="d_price" type="text" placeholder="Enter Discount %"></td>
+        </tr>
+        <tr>
+            <td><p class="textbold"><b>Price After Discount : </b></p></td>
+            <td><b id="a_price"></b></td>
+        </tr>
+        <tr>
+            <td><p class="textbold"><b>You Saved : </b></p></td>
+            <td><b id="s_price"></b></td>
+        </tr>
+</table>
+
+</div>
+<div class="btn">
+    <table>
+        <tr>
+            <td><button onclick="fun()" id="cal">Calculate</button></td>
+            <td><button onclick="fun1()" id="clr">Clear</button></td>
+        </tr>
+    </table>
+</div>
+        <script src="app.js"></script>
+    </body>
+</html>
