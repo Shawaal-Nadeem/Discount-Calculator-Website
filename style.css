@@ -1,3 +1,4 @@
+@media only screen and (max-width: 790px){
 body{
     background-image: url("cal.png");
     background-size: 100% 100%;
@@ -15,7 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 300%;
+    font-size: 200%;
 }
 .enter{
     display: flex;
@@ -51,11 +52,11 @@ body{
 }
 .btn{
     margin-top: 70px;
-    margin-left: 33%;
+    margin-left: 15%;
 }
 
 #clr{
-    margin-left: 300px;
+    margin-left: 100px;
     padding: 15px;
     background-color: lightgrey;
     border-radius: 5px;
@@ -80,3 +81,88 @@ body{
 #cal:hover{
     background-color: rgb(7, 243, 7);
 }
+}
+@media only screen and (min-width: 790px){
+    body{
+        background-image: url("cal.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .head{
+        background-color:transparent ;
+        height: 70px;
+    }
+    #heading{
+        padding-top: 10px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 300%;
+    }
+    .enter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    .textbold{
+        font-size: 20px;
+    }
+    #e_price{
+        height: 30px;
+        padding: 10px;
+        color: rgb(1, 20, 51);
+    }
+    #d_price{
+        height: 30px;
+        padding: 10px;
+        color:red;
+    }
+    #a_price{
+        font-size: 30px;
+       padding-left: 30px;
+       color:blue;
+    }
+    #s_price{
+        font-size: 30px;
+        padding-left: 30px;
+        color: green;
+       
+    
+    }
+    .btn{
+        margin-top: 70px;
+        margin-left: 33%;
+    }
+    
+    #clr{
+        margin-left: 300px;
+        padding: 15px;
+        background-color: lightgrey;
+        border-radius: 5px;
+        border-color: transparent;
+        cursor: pointer;
+        margin-bottom: 35px;
+    
+    }
+    #clr:hover{
+        background-color:grey ;
+        color: white;
+    }
+    #cal{
+        padding: 20px;
+        background-color: rgb(40, 189, 40);
+        color: white;
+        border-color: transparent;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-bottom: 35px;
+    }
+    #cal:hover{
+        background-color: rgb(7, 243, 7);
+    }
+    }
