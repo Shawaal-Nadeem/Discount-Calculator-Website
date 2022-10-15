@@ -1,9 +1,13 @@
 body{
-    background-color: lightsteelblue;
+    background-image: url("cal.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
 }
+
 .head{
-    background-color:brown ;
-    height: 60px;
+    background-color:transparent ;
+    height: 70px;
 }
 #heading{
     padding-top: 10px;
@@ -11,12 +15,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 300%;
 }
 .enter{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    
 }
 .textbold{
     font-size: 20px;
@@ -24,12 +30,12 @@ body{
 #e_price{
     height: 30px;
     padding: 10px;
-    color: lightslategray;
+    color: rgb(1, 20, 51);
 }
 #d_price{
     height: 30px;
     padding: 10px;
-    color:tomato;
+    color:red;
 }
 #a_price{
     font-size: 30px;
@@ -44,23 +50,33 @@ body{
 
 }
 .btn{
-    margin-top: 50px;
-    margin-left: 37%;
+    margin-top: 70px;
+    margin-left: 33%;
 }
 
 #clr{
     margin-left: 300px;
-    padding: 8px;
+    padding: 15px;
     background-color: lightgrey;
-    border-radius: 8px;
-    border-color: white;
+    border-radius: 5px;
+    border-color: transparent;
     cursor: pointer;
+    margin-bottom: 35px;
+
+}
+#clr:hover{
+    background-color:grey ;
+    color: white;
 }
 #cal{
-    padding: 10px;
-    background-color: green;
+    padding: 20px;
+    background-color: rgb(40, 189, 40);
     color: white;
-    border-color: white;
-    border-radius: 12px;
+    border-color: transparent;
+    border-radius: 6px;
     cursor: pointer;
+    margin-bottom: 35px;
+}
+#cal:hover{
+    background-color: rgb(7, 243, 7);
 }
